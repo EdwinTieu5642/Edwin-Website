@@ -5,6 +5,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 <BaseLayout title="Edwin — Home">
   <section class="hero">
     <div class="hero-content">
+      <div class="availability-badge">
+        <span class="availability-dot"></span>
+        Open to New Projects and Collaborations
+      </div>
       <h1>Edwin Tieu</h1>
       <p class="hero-subtitle">
         Embedded Software Engineer building resilient defense systems - <br />
@@ -31,19 +35,41 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </div>
   </section>
 
-  <section class="about">
+  <section class="about" id="about">
+    <h2 class="about-title">About Me</h2>
     <div class="intro">
       <img src="/edwin.jpg" alt="Edwin Tieu" class="intro-photo" />
       <div class="intro-text">
         <p>
-          I'm an Embedded Software Engineer passionate about solving hard
-          problems at the intersection of AI and Defense. I earned both my B.S. in
-          Computer Science and Computer Engineering and my M.S. in Computer Engineering
-          from USC. I'm driven by building systems that have real-world impact, especially
-          technologies that can help protect and save lives. My goal is to
-          continuously grow by taking on challenging problems and pushing myself to
-          learn as quickly as possible.
+          I'm an Embedded Software Engineer passionate about solving hard problems at the intersection of AI and Defense. I earned both my B.S. in Computer Science and Computer Engineering and my M.S. in Computer Engineering from USC.
         </p>
+        <p>
+          I'm driven by building systems that have real-world impact, especially technologies that can help protect and save lives. My goal is to continuously grow by taking on challenging problems and pushing myself to learn as quickly as possible.
+        </p>
+        <p>
+          In my free time, I like to work on developing iOS Applications, learn more about Machine Learning and Artificial Intelligence systems, and ideate new and exciting projects to work on next.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-value">1</span>
+        <span class="stat-label">iOS App Shipped</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value">3</span>
+        <span class="stat-label">Research Projects</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value">3</span>
+        <span class="stat-label">Internships Worked</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value">∞</span>
+        <span class="stat-label">Curiosity</span>
       </div>
     </div>
   </section>
